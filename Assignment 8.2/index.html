@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script>
+            function prepareFood(Tableno, items, Finishedpreparation) { // Creating a function which takes 3 parameters
+                console.log("preparing food for items -" ,  items);// Calling the output in the console
+            }
+            function Finishedpreparation() {
+                console.log("Food preperation finished");
+            }
+            function serveFood(Tableno, items) {
+                console.log("serving food for items -" , items);
+            }     
+            // Creating a variable for storing the values of array
+            var Fooditems = new Array("Burger", "pasta", "coke");
+            prepareFood(3, Fooditems, Finishedpreparation);
+            serveFood(3, Fooditems);
+        </script>
+    </body>
+</html>
